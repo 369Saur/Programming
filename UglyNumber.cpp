@@ -13,6 +13,8 @@ public:
             }
             else if(n%5==0){
                 n/=5;
+            }else if(n==1){
+                n/=1;
             }
             else{
                 break;
